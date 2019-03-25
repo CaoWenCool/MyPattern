@@ -1,6 +1,5 @@
 package com.pattern.old.factory.abstr;
 
-import com.pattern.factory.entity.*;
 import com.pattern.old.factory.entity.*;
 
 /**
