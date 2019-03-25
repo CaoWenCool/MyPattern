@@ -1,4 +1,5 @@
 ##简单工程模式
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/factory/image/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82.jpg)
    定义：简单工厂模式是指由一个工厂对象决定创建出哪一种产品类的实例
    
    属于创建型模式，但是它不属于GOF，23中设计模式
@@ -12,6 +13,7 @@
    不易于扩展过于复杂的产品架构
    
 ##工厂方法模式
+  ![images](https://github.com/CaoWenCool/MyPattern/blob/master/factory/image/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E7%B1%BB%E5%9B%BE.jpg)
   定义：工厂方法模式是指定义一个创建对象的接口，但让实现这个接口的类来决定实例化那个类，工厂方法
   让类的实例化推迟到子类中进行
   
@@ -25,6 +27,7 @@
   缺点：类的个数容易过多，增加了代码结构重构的复杂度。增加了系统抽象性和理解难度
   
 ##抽象工厂模式
+![iamges](https://github.com/CaoWenCool/MyPattern/blob/master/factory/image/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E7%B1%BB%E5%9B%BE.jpg)
   定义：抽象工厂模式是指提供一个创建一系列相关或者相互依赖对象的接口，无需指定他们具体的类
   
   属于创建型模式
