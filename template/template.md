@@ -52,7 +52,7 @@
     }
 
 例如：doUpdate，doFlushStatements，doQuery，doQueryCursor这几个方法就是交由子类实现，那么BaseExecutor有哪些子类？如下：
-![images](http://git.gupaoedu.com/caowen/pattern/blob/master/template/image/SimpleExecutor.jpg)
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/template/image/SimpleExecutor.jpg)
     
  我们对比一个SimpleExecutor的doUpdate方法和BatchExecutor的doUpdate方法
  SimpleExecutor
