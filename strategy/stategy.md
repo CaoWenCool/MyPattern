@@ -12,7 +12,7 @@
 
 ###以选择支付方式为例讲解策略模式
 支付方式策略模式类结构图如下：
-![images](http://git.gupaoedu.com/caowen/pattern/blob/master/strategy/image/%E6%94%AF%E4%BB%98%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/strategy/image/%E6%94%AF%E4%BB%98%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
 具体过程：
 1、创建Payment抽象类，定义支付规范和支付逻辑
 2、分别创建具体的支付方式：例如AliPay
@@ -75,7 +75,7 @@ Comparator 抽象下面有非常多的实现类，我们经常会把Comparator�
     }
     
  我们虽然没有直接使用Resource类，但是经常使用它的子类例如：
- ![images](http://git.gupaoedu.com/caowen/pattern/blob/master/strategy/image/Spring%E7%9A%84Resource%E5%AD%90%E7%B1%BB.jpg)
+ ![images](https://github.com/CaoWenCool/MyPattern/blob/master/strategy/image/Spring%E7%9A%84Resource%E5%AD%90%E7%B1%BB.jpg)
  
  还有一个经典场景，Spring的初始化也采用了策略模式，不同类型的类采用不同的初始化策略。
 首先看一下InstantiationStrategy接口
@@ -93,7 +93,7 @@ Comparator 抽象下面有非常多的实现类，我们经常会把Comparator�
      
 顶层的策略抽象非常简单，但是它下面有两种策略SimpleInstantiationStrategy和CglibSubclassingInstantiationStrategy
 类图如下：
-![images](http://git.gupaoedu.com/caowen/pattern/blob/master/strategy/image/InstantiationStrategy%E7%B1%BB%E5%9B%BE.jpg)
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/strategy/image/InstantiationStrategy%E7%B1%BB%E5%9B%BE.jpg)
 
 打开类图，我们还发现CglibSubclassingInstantiationStrategy策略类还继承了SimpleInstantiationStrategy类，说明在实际应用中多种
 策略模式还可以继承使用。
