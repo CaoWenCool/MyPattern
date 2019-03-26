@@ -13,7 +13,7 @@
 4、测试BattercakeTest  
 
 类图如下：  
-![iamges](http://git.gupaoedu.com/caowen/pattern/blob/master/decorator/image/V1%E7%89%88%E6%9C%AC%E7%9A%84%E7%85%8E%E9%A5%BC%E7%B1%BB%E5%9B%BE.jpg)  
+![iamges](https://github.com/CaoWenCool/MyPattern/blob/master/decorator/image/V1%E7%89%88%E6%9C%AC%E7%9A%84%E7%85%8E%E9%A5%BC%E7%B1%BB%E5%9B%BE.jpg)  
 测试结果，但是如果场景更加丰富，我们岂不是要加很多个类，这样一直加不是很合理。  
 
 ### 通过装饰者模式来进行优化  
@@ -24,7 +24,7 @@
 5、测试  
 
 类图如下：  
-![iamges](http://git.gupaoedu.com/caowen/pattern/blob/master/decorator/image/V2%E7%89%88%E6%9C%AC%E7%9A%84%E7%85%8E%E9%A5%BC%E7%B1%BB%E5%9B%BE.jpg)  
+![iamges](https://github.com/CaoWenCool/MyPattern/blob/master/decorator/image/V2%E7%89%88%E6%9C%AC%E7%9A%84%E7%85%8E%E9%A5%BC%E7%B1%BB%E5%9B%BE.jpg)  
 
 ### 利用适配器模式实现多种方式登录  
 1、创建Member成员类  
@@ -35,7 +35,7 @@
 6、创建第三方登录的实现类，SigninForThirdService  
 7、测试：DecoratorTest  
 类图如下：  
-![iamges](http://git.gupaoedu.com/caowen/pattern/blob/master/decorator/image/%E8%A3%85%E9%A5%B0%E8%80%85%E5%AE%9E%E7%8E%B0%E7%AC%AC%E4%B8%89%E6%96%B9%E7%99%BB%E5%BD%95.jpg)  
+![iamges](https://github.com/CaoWenCool/MyPattern/blob/master/decorator/image/%E8%A3%85%E9%A5%B0%E8%80%85%E5%AE%9E%E7%8E%B0%E7%AC%AC%E4%B8%89%E6%96%B9%E7%99%BB%E5%BD%95.jpg)  
 
 装饰者模式最本质的特征就是原有类的附加功能抽离出来，简化原有的逻辑。  
 
@@ -59,7 +59,7 @@
 JDK中最明显的类就是IO相关的类，如BufferedReader\InputStream\OutputStream,  
 让我们看下InputStream类  
 类结构图如下：  
-![iamges](http://git.gupaoedu.com/caowen/pattern/blob/master/decorator/image/InputStream%E7%B1%BB%E5%9B%BE.jpg)  
+![iamges](https://github.com/CaoWenCool/MyPattern/blob/master/decorator/image/InputStream%E7%B1%BB%E5%9B%BE.jpg)  
 在Spring 中TransactionAwareCacheDecorator类，这个类主要是用来处理事务缓存的  
 源代码如下：
 `public class TransactionAwareCacheDecorator implements Cache{
@@ -80,7 +80,7 @@ JDK中最明显的类就是IO相关的类，如BufferedReader\InputStream\Output
         }`
         
 再看看Mybatis 中的一段处理缓存的设计,org.apache.ibatis.cache.Cache类，找到他的包定位：  
-![iamges](http://git.gupaoedu.com/caowen/pattern/blob/master/decorator/image/cache%E5%8C%85.jpg)  
+![iamges](https://github.com/CaoWenCool/MyPattern/blob/master/decorator/image/cache%E5%8C%85.jpg)  
 从名字上其实更加容易理解了：比如：FifoCache先入先出算法，LruCache最近最少使用的缓存，TransactionCache事务相关的缓存，
 都是采用装饰者模式，
 
