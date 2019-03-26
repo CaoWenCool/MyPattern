@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="delegate" target="1.8" />
       <module name="MyPattern" target="1.5" />
     </bytecodeTargetLevel>
   </component>
