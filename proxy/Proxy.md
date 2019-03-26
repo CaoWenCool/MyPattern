@@ -4,7 +4,7 @@
 体现。代理模式的定义也非常简单，是指为其他对象提供一种代理，以控制这个对象的访问。代理对象在客户端和目标对象之间起到中介作用，
 代理模式属于结构型设计模式。使用代理模式主要有两个目的：一保护目标对象，二增强目标对象。
 如下为：代理模式的类结构图：
-![images](http://git.gupaoedu.com/caowen/pattern/blob/master/proxy/image/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/proxy/image/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
 Subject 是顶层接口，RealSubject是真实对象（被代理对象），Proxy是代理对象，代理对象持有被代理对象的引用，客户端调用
 代理对象方法，同时也调用被代理对象的方法，但是在代理对象前后增加一个处理。在代码中，我们想到代理，就会理解为是代理增强
 ，其实就是在原本逻辑前后增加一些逻辑，而调用者无感知。代理模式属于结构型模式，有静态代理和动态代理
@@ -22,7 +22,7 @@ Subject 是顶层接口，RealSubject是真实对象（被代理对象），Prox
 6、创建切换数据源的代理OrderServiceStaticProxy类
 
 下图为：静态代理的类结构图
-![images](http://git.gupaoedu.com/caowen/pattern/blob/master/proxy/image/%E9%9D%99%E6%80%81%E4%BB%A3%E7%90%86%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/proxy/image/%E9%9D%99%E6%80%81%E4%BB%A3%E7%90%86%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
 
 
 ##动态代理
@@ -194,7 +194,7 @@ FastClass 并不是跟着代理类一块生成的，而是在第一次执行Meth
  如果修改Scope则每次创建一个新的原型对象。newPrototypeInstance()里面的逻辑比较复杂，
  Spring 利用动态代理实现AOP有两个非常重要的类，一个JdkDynamicAopProxy类和CglibAopProxy类，
  如下为类结构图：
-    ![images](http://git.gupaoedu.com/caowen/pattern/blob/master/proxy/image/Spring%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+    ![images](https://github.com/CaoWenCool/MyPattern/blob/master/proxy/image/Spring%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
 ####Spring 中代理选择原则
 1、当Bean有实现接口时，Spring就会用JDK动态代理
 2、当Bean没有实现接口时，Spring 选择CGLib
