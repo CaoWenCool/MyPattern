@@ -17,7 +17,7 @@
 9、实现兼容的PassportForThirdAdapter
 
 以下为类图：
-![images](http://git.gupaoedu.com/caowen/pattern/blob/master/adapter/image/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.jpg)
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/adapter/image/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.jpg)
 
 
 ##适配器模式在源码中的体现
@@ -46,7 +46,7 @@ Spring中适配器模式应用也是非常广泛，例如：SpringAOP中，Advis
 
 Spring 会根据不同的AOP配置来确定使用对应的Advice，跟策略模式不同的一个方法拥有多个Advice。
 接下来我们来看一个SpringMVC中的HandlerAdapter类，他也有过个多个子类，类图如下：
-![images](http://git.gupaoedu.com/caowen/pattern/blob/master/adapter/image/HandlerAdapter.jpg)
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/adapter/image/HandlerAdapter.jpg)
 
 其适配调用的关键代码还是在DispatcherServlet的doDispatch（）方法中，接下来我们看下源码：
     
