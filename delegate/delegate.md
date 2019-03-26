@@ -4,7 +4,7 @@
 的全权代理，但是代理模式注重的是过程，而委派模式注重的是结果。委派模式在Spring中应用的非常多，大家常用的DispatcherServlet
 其实就是用到了委派模式。显示生活中也常有委派的场景发生，例如：老板给项目经理下达任务，项目经理会根据实际情况给每个员工派发工作
 任务，待员工把工作任务完成之后，再由项目经理汇报工作进度和结果。下面为该业务场景的类结构图
-![images](http://git.gupaoedu.com/caowen/pattern/blob/master/delegate/image/%E8%80%81%E6%9D%BF%E5%A7%94%E6%B4%BE%E7%9A%84%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+![images](https://github.com/CaoWenCool/MyPattern/blob/master/delegate/image/%E8%80%81%E6%9D%BF%E5%A7%94%E6%B4%BE%E7%9A%84%E7%B1%BB%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
 ####具体过程
 1、创建IEmployee接口
 2、创建员工类IEmployeeA类
